@@ -94,4 +94,4 @@ Cross-account assumption secured by:
 <!-- Update this link after uploading templates -->
 
 [deploy-org-badge]: https://img.shields.io/badge/Deploy%20Org--Wide%20(StackSet)-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white
-[deploy-org-link]: https://console.aws.amazon.com/cloudformation/home#/stacks/quickcreate?templateURL=REPLACE_WITH_BOOTSTRAP_S3_URL
+[deploy-org-link]: https://console.aws.amazon.com/cloudformation/home#/stacks/quickcreate?templateURL=https%3A%2F%2Finfoblox-igor.s3.eu-west-1.amazonaws.com%2Finfoblox_discovery_stackset_bootstrap_rw.yaml&stackName=Infoblox-Discovery-Role-StackSet-Bootstrap&param_RoleTemplateURL=https%3A%2F%2Finfoblox-igor.s3.eu-west-1.amazonaws.com%2Finfoblox_discovery_role_rw.yaml&param_ExternalId=fd73371c-05e7-4224-bd9f-c072191f66c1&param_AccountId=902917483333&param_TargetOUsCsv=%3CREPLACE_WITH_YOUR_OU_IDS%3E&param_Regions=eu-west-1&param_AutoDeployNewAccounts=true
